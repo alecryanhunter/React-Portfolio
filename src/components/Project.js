@@ -1,8 +1,12 @@
 function Project(props) {
     return <section className="project">
-        <h3>{props.title}</h3>
-        <a href={props.github}>Github Link</a>
-        <a href={props.link}>Site Link</a>
+        <a href={props.link} target="_blank">
+        <img src={props.image}></img>
+        <section className="info">
+            <h3>{props.title}</h3>
+            <a href={props.github}>Github Link</a>
+        </section>
+        </a>
     </section>
 }
 
