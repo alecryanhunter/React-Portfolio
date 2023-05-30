@@ -31,11 +31,11 @@ function App() {
 // Project component that is used multiple times in the portfolio section
 // Footer component that is on every page
 
-// Header - Every Page
-  // Contains My Name and Navigation
-    // Navigation Links: About Me, Portfolio, Contact, and Resume
-    // Link corresponding to current page is highlighted
-    // Clicking on a link changes to that section without page reload. New title is highlighted
+// Header - Every Page !!!
+  // Contains My Name and Navigation !!!
+    // Navigation Links: About Me, Portfolio, Contact, and Resume !!!
+    // Link corresponding to current page is highlighted !!!
+    // Clicking on a link changes to that section without page reload. New title is highlighted !!!
 // About Me - Conditional
   // About Me is the first displayed to new users
   // Recent Photo or Avatar and Short Bio

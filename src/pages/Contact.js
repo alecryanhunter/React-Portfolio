@@ -1,6 +1,8 @@
 function Contact() {
     return <main>
-        <h2>Contact Me!</h2>
+        <section className="contact page">
+            <h2 className="title">Contact Me!</h2>
+        </section>
     </main>
 }
 
