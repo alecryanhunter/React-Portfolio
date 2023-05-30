@@ -65,6 +65,14 @@ h2.title {
     padding: 10px;
 }
 
+.about img {
+    width: 300px;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px black;
+    padding: 10px;
+    background-color: darkgreen;
+}
+
 .currents {
     line-height: 25px;
     margin: 10px 0;
@@ -77,6 +85,19 @@ h2.title {
 }
 
 /* PORTFOLIO STYLING */
+.portfolio-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project {
+    border: 1px solid black;
+    width: 45%;
+    margin: 5px;
+}
 
 
 /* FOOTER STYLING */

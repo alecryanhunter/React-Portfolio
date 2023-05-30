@@ -1,8 +1,8 @@
-function Project() {
-    return <section>
-        <h3>Project Title</h3>
-        <a href="">Github Link</a>
-        <a href="">Site Link</a>
+function Project(props) {
+    return <section className="project">
+        <h3>{props.title}</h3>
+        <a href={props.github}>Github Link</a>
+        <a href={props.link}>Site Link</a>
     </section>
 }
 
