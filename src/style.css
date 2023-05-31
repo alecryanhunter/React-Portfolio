@@ -138,6 +138,54 @@ h2.title {
     color: goldenrod
 }
 
+/* RESUME STYLING */
+
+.resume a{
+    margin: 10px;
+    font-size: 250%;
+}
+
+.skills {
+    padding: 10px;
+    line-height: 25px;
+}
+
+.bar {
+    background-color: white;
+    border: 3px solid black;
+    width: 300px;
+    height: 20px;
+}
+
+.fill {
+    height: 14px;
+}
+
+.f-20 {
+    background-color: red;
+    width: 20%;
+}
+
+.f-40 {
+    background-color: orange;
+    width: 40%
+}
+
+.f-60 {
+    background-color: yellow;
+    width: 60%;
+}
+
+.f-80 {
+    background-color: greenyellow;
+    width: 80%;
+}
+
+.f-100 {
+    background-color: green;
+    width: 100%;
+}
+
 /* FOOTER STYLING */
 
 footer {
