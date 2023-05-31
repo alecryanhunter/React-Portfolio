@@ -39,8 +39,8 @@ function App() {
 // About Me - Conditional !!!
   // About Me is the first displayed to new users !!!
   // Recent Photo or Avatar and Short Bio !!!
-// Portfolio - Conditional
-  // Six Projects with titles, links to deployed applications, and Github repository
+// Portfolio - Conditional !!!
+  // Six Projects with titles, links to deployed applications, and Github repository !!!
 // Contact - Conditional
   // Contact form with fields for a name, email address, and a message
   // If text is not entered, notification of required fields is given
@@ -48,6 +48,6 @@ function App() {
 // Resume - Conditional !!!
   // Link to downloadable resume and my proficiencies !!!
 // Footer - Every Page !!!
-  // Text or Icon links to GitHub and LinkedIn, and a third platform, like Stack Overflow or Twitter NEED THIRD THING
+  // Text or Icon links to GitHub and LinkedIn, and a third platform, like Stack Overflow or Twitter NEED THIRD THING !!!
 
 export default App;
