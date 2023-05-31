@@ -42,7 +42,7 @@ function App() {
 // Portfolio - Conditional !!!
   // Six Projects with titles, links to deployed applications, and Github repository !!!
 // Contact - Conditional
-  // Contact form with fields for a name, email address, and a message
+  // Contact form with fields for a name, email address, and a message !!!
   // If text is not entered, notification of required fields is given
   // Notification given if invalid email is entered
 // Resume - Conditional !!!

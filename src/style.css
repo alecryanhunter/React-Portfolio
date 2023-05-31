@@ -138,6 +138,17 @@ h2.title {
     color: goldenrod
 }
 
+/* CONTACT STYLING */
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    padding: 10px
+}
+
+textarea {
+    resize: none;
+}
 /* RESUME STYLING */
 
 .resume a{
