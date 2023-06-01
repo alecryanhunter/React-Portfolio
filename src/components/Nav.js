@@ -4,16 +4,16 @@ import { Link } from "react-router-dom"
 function Nav(props) {
 
     return <nav>
-        <Link to="/" 
+        <Link to="/React-Portfolio/" 
             onClick={()=>{props.setActive("about")}}
             className={props.active==="about" ? "active" : ""}>About Me</Link>
-        <Link to="/portfolio" 
+        <Link to="/React-Portfolio/portfolio" 
             onClick={()=>{props.setActive("portfolio")}}
             className={props.active==="portfolio" ? "active" : ""}>Portfolio</Link>
-        <Link to="/contact"
+        <Link to="/React-Portfolio/contact"
             onClick={()=>{props.setActive("contact")}}
             className={props.active==="contact" ? "active" : ""}>Contact Me</Link>
-        <Link to="/resume"
+        <Link to="/React-Portfolio/resume"
             onClick={()=>{props.setActive("resume")}}
             className={props.active==="resume" ? "active" : ""}>Resume</Link>
     </nav>

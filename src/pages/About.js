@@ -18,7 +18,7 @@ function About() {
                 </section>
             </section>
             <aside className="prof-img">
-                <img src="/images/Alec_Profile_Pic.jpg"></img>
+                <img src="/React-Portfolio/images/Alec_Profile_Pic.jpg"></img>
             </aside>
         </section>
     </main>

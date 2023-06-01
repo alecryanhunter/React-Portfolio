@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import { HashRouter as Router, Routes, Route } from "react-router-dom"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import About from "./pages/About"
@@ -15,11 +15,11 @@ function App() {
     <Router>
       <Header active={active} setActive={setActive}/>
       <Routes>
-        <Route path="/" element={<About/>}/>
-        <Route path="/portfolio" element={<Portfolio/>}/>
-        <Route path="/contact" element={<Contact/>}/>
-        <Route path="/resume" element={<Resume/>}/>
-        <Route path="/*" element={<h2>404 Page Not Found</h2>}/>
+        <Route path="/React-Portfolio/" element={<About/>}/>
+        <Route path="/React-Portfolio/portfolio" element={<Portfolio/>}/>
+        <Route path="/React-Portfolio/contact" element={<Contact/>}/>
+        <Route path="/React-Portfolio/resume" element={<Resume/>}/>
+        <Route path="/React-Portfolio/*" element={<h2>404 Page Not Found</h2>}/>
       </Routes>
       <Footer/>
     </Router>
