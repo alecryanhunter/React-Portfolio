@@ -6,7 +6,7 @@ This is an updated portfolio which utilizes React instead of raw HTML and CSS. I
 This project was quite interesting. I really think that React is significantly more powerful and makes website that feel reactive much easier to create. I'd like to learn much more about React in order to add even more functionality to the website.
 
 ## Usage
-A link to the live site is [here]()!
+A link to the live site is [here](https://alecryanhunter.github.io/React-Portfolio/#/React-Portfolio/)!
 
 ## Credits
 All code created by me. Assistance provided by the React documentation.
